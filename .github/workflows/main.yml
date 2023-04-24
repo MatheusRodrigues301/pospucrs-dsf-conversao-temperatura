@@ -54,5 +54,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-           matheusrodrigues301/aula02-conversao-temperatura:v1
+           matheusrodrigues301/aula02-conversao-temperatura:${{github.run_number}}
            matheusrodrigues301/aula02-conversao-temperatura:latest
